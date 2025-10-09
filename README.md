@@ -99,3 +99,11 @@ Projenin geliştirme sürecinde, belirli konularda verimliliği artırmak amacı
   * SQLAlchemy ve Pydantic için standart kod yapılarının (boilerplate) oluşturulmasında,
   * `httpx` kütüphanesinin asenkron dosya yükleme gibi spesifik kullanımları hakkında bilgi edinilmesinde,
   * ve karşılaşılan hataların çözümünde bir araştırma aracı olarak kullanılmıştır.
+
+
+### **Proje Yapısı Üzerine Not**
+
+Bu proje, backend ve frontend servisleri için iki ayrı repository olarak yapılandırılmıştır. Bu "multi-repo" yaklaşımı, her bir servisin (backend/frontend) kendi bağımlılıklarını, testlerini ve dağıtım (deployment) süreçlerini bağımsız olarak yönetmesine olanak tanıyan modern bir geliştirme pratiğini yansıtmaktadır.
+
+* **Backend Repository:** `https://github.com/Saner-y/voltran_case_backend`
+* **Frontend Repository:** `https://github.com/Saner-y/volttan_case_frontend`
